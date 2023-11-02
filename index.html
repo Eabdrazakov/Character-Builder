@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Character-Builder</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <h1>Character Creation</h1>
+    <form id="Character">
+        <label for="charName">Character Name:</label>
+        <input id="charName" type="text" name="charName"><br><br>
+
+        <label for="charclass">Character Class:</label>
+        <select id="charclass">
+            <option id="warrior">Warrior</option>
+            <option id="mage">Mage</option>
+            <option id="rogue">Rogue</option>
+        </select><br><br>
+
+        <label for="charalingment">Character Alignment:</label>
+        <select id="charalingment">
+            <option id="good">Good</option>
+            <option id="evil">Evil</option>
+            <option id="nuetral">Nuetral</option>
+        </select><br><br>
+        <button type="submit">Create Character</button>
+    </form>
+
+    <div>
+        <h1>Character Summary:</h1>
+        <p><strong>Name:</strong> <span id="person"></span></p>
+    </div>
+</body>
