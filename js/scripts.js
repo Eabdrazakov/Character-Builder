@@ -5,8 +5,6 @@ window.onload = function () {
         const className = document.getElementById("charclass").value;
         const alingment = document.getElementById("charalingment").value;
 
-
-
         document.querySelector("span#person").innerText = charName;
         document.querySelector("span#person1").innerText = className;
         document.querySelector("span#person2").innerText = alingment;
